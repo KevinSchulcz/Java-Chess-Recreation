@@ -1,0 +1,12 @@
+Chess Game
+
+
+Chessboard Class:
+- no actual board
+- keep arraylist of pieces to check x/y_pos to see for empty spaces
+
+Pieces Class:
+- superclass to all different pieces
+- fields inlcude: position, colour, onboard/taken?
+- methods include: getPosition(),
+- specific pieces' methods include: move(posToMove), showPossibleMove()?,
